@@ -1,10 +1,54 @@
-
-  body {
-      color: green;
+  body { background-color: aliceblue;
+         color: slateblue;
    }
-   h1 {
-     color: red;
-   }
+     h1 {color: black;
+        border-style: solid;
+        border-width: 1 px;
+        border-color: #00FFFF;}
    h3 {
-     color: red;
+     color: green;
+     font-style: italic;
    }
+   li{ color: darkgreen;
+       font-style: italic;
+      font-size: 200%;
+      text-align: left;
+      }
+img {border-style: dashed;
+        border-color: blueviolet;
+        border-width: 3px;
+        width: 25%;
+  }
+  .desc{ color: red;
+    }
+    .title{ color: red;
+             font-size: 200%;
+           }
+           header {
+   background-color: #F1F1F1;
+   text-align: center;
+   padding: 20px;
+ }
+  h2{ color: red;
+       font-size: 200%;
+       text-align: center;
+       border-color: blue;
+       border-style: double;
+      }
+      p{ text-align: center;
+         }
+  p{ border-style: groove;
+     border-color: aquamarine;
+     border-width:thin;
+     width: 25%;
+     text-align: center;
+     }
+     a[href="file:///C:/Users/mamadoudiallo/Desktop/portfolio/index.html"]
+        {background-color: bisque;}
+      a[href="file:///C:/Users/mamadoudiallo/Desktop/portfolio/about-me.html"]
+           {background-color: bisque;}
+a[href="mailto:someone@example.com"]
+{
+        padding: 1rem;
+        background-color: blue;
+      }
